@@ -1,0 +1,29 @@
+# The Practical Minimum Jekyll configuration
+
+title: The Practical Minimum
+email: padigavou@gmail.com
+description: >-
+  The Practical Minimum is a collection of resources for those who desire to
+  learn computer programming and engineering.
+baseurl: ""
+url: "http://www.thepracticalminimum.com/"
+
+# Plugins
+plugins:
+  - jekyll-asciidoc
+
+# Other settings
+permalink: :year/:month/:title
+timezone: Europe/Bucharest
+
+# Excludes
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
