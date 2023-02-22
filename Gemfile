@@ -4,6 +4,7 @@ gem "jekyll", "~> 4.3.2"
 
 group :jekyll_plugins do
   gem "jekyll-asciidoc", "~> 3.0.0"
+  gem "jekyll-thepracticalminimum-theme", path: "_theme"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

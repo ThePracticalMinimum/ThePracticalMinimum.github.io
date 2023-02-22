@@ -6,7 +6,16 @@ description: >-
   The Practical Minimum is a collection of resources for those who desire to
   learn computer programming and engineering.
 baseurl: ""
-url: "http://www.thepracticalminimum.com/"
+url: "https://www.thepracticalminimum.com/"
+
+# Collections
+
+# Theme
+theme: 'jekyll-thepracticalminimum-theme'
+
+# Analytics
+analytics:
+  tag: 'G-5HTH6H8ZZ9'
 
 # Plugins
 plugins:
